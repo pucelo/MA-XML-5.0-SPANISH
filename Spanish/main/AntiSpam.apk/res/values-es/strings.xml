@@ -181,7 +181,7 @@
   <string name="tab_call">Registros de llamadas</string>
   <string name="st_bl_setting_group">Configuración de lista negra</string>
   <string name="st_bl_block_setting_title">Decidir luego</string>
-	<string name="st_title_open_antispam">Blocklist</string>
+  <string name="st_title_open_antispam">Blocklist</string>
   <string name="st_title_antispam_mode">Reglas</string>
   <string name="st_sub_title_whiteblack_list_group">Blocklist</string>
   <string name="st_title_keywords_blacklist">Fitrar por palabra</string>
