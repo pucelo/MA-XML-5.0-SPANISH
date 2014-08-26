@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+     <string-array name="perm_hips_action">
+        <item>Permitir</item>
+        <item>Preguntar</item>
+        <item>Denegar</item>
+    </string-array>
+	<string-array name="perm_disable_keyguard_action">
+        <item>Permitir</item>
+        <item>Denegar</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Alto rendimiento</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="power_dialog_auto_clean_memory_items">
+        <item>Despues de 1 minuto</item>
+        <item>Despues de 5 minutos</item>
+        <item>Despues de 10 minutos</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="power_dialog_sleep_items">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>Nunca</item>
+    <string-array name="power_dialog_vibration_items">
+        <item>Nunca vibrar</item>
+        <item>Vibrar en modo silencio</item>
+        <item>Vibrar siemrpre</item>
+    </string-array>
+    <string-array name="score_descriptions">
+        <item>Lista de bloqueos apagada</item>
+        <item>Gestor de permisos apagado</item>
+        <item>Archivos temporales demasiados grandes</item>
+        <item>Definicion de virus caducada</item>
+        <item>Demasiados procesos en segundo plano</item>
+    </string-array>
+    <string-array name="score_suggests">
+        <item>Activar lista de bloqueos</item>
+        <item>Activar los controles de los permisos</item>
+        <item>Limpiar archivos temporales</item>
+        <item>Actualiza la libreria de virus</item>
+        <item>Estan ejecutandose muchas aplicaciones en segundo plano…</item>
+    </string-array>    
+    
     <string-array name="timezone_filters">
         <item>América</item>
         <item>Europa</item>
@@ -288,6 +335,15 @@
         <item>7 segundos</item>
         <item>8 segundos</item>
         <item>9 segundos</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul celeste</item>
+        <item>Blanco</item>
+        <item>Violeta</item>
     </string-array>
     <string-array name="back_long_press_timeout">
         <item>0.5 segundos</item>
