@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-     <string-array name="perm_hips_action">
+	 <string-array name="perm_hips_action">
         <item>Permitir</item>
         <item>Preguntar</item>
         <item>Denegar</item>
@@ -27,7 +27,8 @@
         <item>5 minutos</item>
         <item>10 minutos</item>
         <item>Nunca</item>
-    <string-array name="power_dialog_vibration_items">
+    </string-array>
+	<string-array name="power_dialog_vibration_items">
         <item>Nunca vibrar</item>
         <item>Vibrar en modo silencio</item>
         <item>Vibrar siemrpre</item>
@@ -45,8 +46,7 @@
         <item>Limpiar archivos temporales</item>
         <item>Actualiza la libreria de virus</item>
         <item>Estan ejecutandose muchas aplicaciones en segundo plano…</item>
-    </string-array>    
-    
+    </string-array>
     <string-array name="timezone_filters">
         <item>América</item>
         <item>Europa</item>
@@ -56,13 +56,6 @@
         <item>Pacífico</item>
         <item>Todas</item>
     </string-array>
-    <string-array name="screen_key_long_press_action">
-        <item>Ninguno</item>
-        <item>Mostrar el panel de aplicaciones recientes</item>
-        <item>Lanzar asistente</item>
-        <item>Lanzar Google now</item>
-        <item>Cerrar la aplicación actual</item>
-    </string-array>	
     <string-array name="screen_timeout_entries">
         <item>15 segundos</item>
         <item>30 segundos</item>
@@ -206,12 +199,6 @@
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
-    <string-array name="wifi_network_setup">
-        <item>Desactivar</item>
-        <item>Botón push</item>
-        <item>PIN de punto de acceso</item>
-        <item>PIN del dispositivo</item>
-    </string-array>
     <string-array name="wifi_ip_settings">
         <item>Protocolo DHCP</item>
         <item>IP estática</item>
@@ -231,20 +218,15 @@
         <item>CHAP</item>
         <item>PAP o CHAP</item>
     </string-array>
-     <string-array name="bearer_entries">
+    <string-array name="bearer_entries">
         <item>LTE</item>
         <item>eHRPD</item>
         <item>Sin especificar</item>
     </string-array>
-     <string-array name="app_install_location_entries">
+    <string-array name="app_install_location_entries">
         <item>Almacenamiento de dispositivo interno</item>
         <item>Tarjeta SD extraíble</item>
         <item>Selección del sistema</item>
-    </string-array>
-    <string-array name="silent_mode_entries">
-        <item>Apagado</item>
-        <item>Vibración</item>
-        <item>Silencio</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Corto</item>
@@ -311,6 +293,14 @@
         <item>Tiempo de espera superado</item>
         <item>Con error</item>
     </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>Siempre</item>
+    </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Suave</item>
         <item>Media</item>
@@ -336,7 +326,7 @@
         <item>8 segundos</item>
         <item>9 segundos</item>
     </string-array>
-    <string-array name="led_color_entries">
+	<string-array name="led_color_entries">
         <item>Azul</item>
         <item>Rojo</item>
         <item>Amarillo</item>
@@ -345,18 +335,64 @@
         <item>Blanco</item>
         <item>Violeta</item>
     </string-array>
-    <string-array name="back_long_press_timeout">
+    <string-array name="screen_key_long_press_action">
+        <item>Ninguno</item>
+        <item>Mostrar el panel de aplicaciones recientes</item>
+        <item>Lanzar asistente</item>
+        <item>Lanzar Google now</item>
+        <item>Cerrar la aplicación actual</item>
+    </string-array>
+	<string-array name="screen_key_long_press_action_value">
+        <item>ninguna</item>
+        <item>panel recientes</item>
+        <item>asistente de voz</item>
+        <item>google_now</item>
+        <item>cerrar app</item>
+    </string-array>
+    <string-array name="screen_key_long_press_timeout">
         <item>0.5 segundos</item>
         <item>1 segundo</item>
         <item>1.5 segundos</item>
         <item>2 segundos</item>
     </string-array>
-    <string-array name="button_light_timeout_entries">
+    <string-array name="screen_color_title">
+        <item>Cálido</item>
+        <item>Natural</item>
+        <item>Frio</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>Brillante</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="startup_hips_action">
+        <item>Permitir</item>
+        <item>Denegar</item>
+    </string-array>
+    <string-array name="phone_call_noise_suppression_title">
+        <item>Elimacion del ruido Single-mic</item>
+        <item>Elimacion del ruido Dual-mic</item>
+    </string-array>
+    <string-array name="change_security_lock_picker">
+        <item>Desbloqueo Facial</item>
+        <item>Patrón</item>
+        <item>PIN</item>
+        <item>Contraseña</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Desactivar</item>
+        <item>Botón push</item>
+        <item>PIN de punto de acceso</item>
+        <item>PIN del dispositivo</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Apagado</item>
+        <item>Vibración</item>
+        <item>Silencio</item>
+    </string-array>
+    <string-array name="back_long_press_timeout">
+        <item>0.5 segundos</item>
         <item>1 segundo</item>
+        <item>1.5 segundos</item>
         <item>2 segundos</item>
-        <item>5 segundos</item>
-        <item>10 segundos</item>
-        <item>20 segundos</item>
-        <item>Siempre</item>
     </string-array>
 </resources>
