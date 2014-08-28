@@ -730,6 +730,7 @@
   <string name="dock_audio_summary_desk">Ajustes de la base</string>
   <string name="dock_audio_summary_none">Teléfono no conectado</string>
   <string name="dock_audio_summary_unknown">Ajustes del conector adjunto</string>
+  <string name="do_not_disturb_mode">No molestar</string>
   <string name="dock_not_found_text">Para configurar el audio del conector, debes insertar el teléfono en el conector.</string>
   <string name="dock_not_found_title">No se ha encontrado el conector</string>
   <string name="dock_settings">Conector</string>
@@ -865,6 +866,7 @@
   <string name="immediately_destroy_activities_summary">Destruir actividades cuando el usuario las deje</string>
   <string name="ims_reg_required_off">Es necesario desactivar el registro de IMS.</string>
   <string name="ims_reg_required_on">Es necesario activar el registro de IMS.</string>
+  <string name="incoming_call_breathing_light_color_title">Color de llamadas recibidas</string>
   <string name="incoming_call_vibrate_abbreviation">Llamadas</string>
   <string name="incoming_call_volume_title">Tono</string>
   <string name="input_method">Introducción de texto</string>
@@ -941,7 +943,19 @@
   <string name="local_backup_password_toast_confirmation_mismatch">"Nueva contraseña y la confirmación no concuerdan"</string>
   <string name="local_backup_password_toast_success">Nueva contraseña para copias de seguridad configurada</string>
   <string name="local_backup_password_toast_validation_failure">Fallo al configurar la contraseña de la copia de seguridad</string>
+  <string name="location_access_title">Acceso a mi localizacion</string>
+  <string name="location_access_summary">Permite a las apps que hayan pedido permiso acceder a tu ubicacion</string>
   <string name="location_gps">Satélites GPS</string>
+  <string name="location_low_battery_use">Poco uso de bateria</string>
+  <string name="location_mode_screen_title">Modo de localizacion</string>
+  <string name="location_mode_high_accuracy_description">Usa GPS, Wi‑Fi,y conexion de datos para determinar la ubicacion</string>
+  <string name="location_mode_battery_saving_description">Usa Wi‑Fi y conexion de datos para determinar la ubicacion</string>
+  <string name="location_mode_sensors_only_description">Usa GPS para determinar la ubicacion</string>
+  <string name="location_mode_title">Modo</string>
+  <string name="location_mode_high_accuracy_title">Alto rendimiento</string>
+  <string name="location_mode_battery_saving_title">Ahorro Bateria</string>
+  <string name="location_mode_sensors_only_title">Solo GPS</string>
+  <string name="location_mode_location_off_title">Localizacion desactivada</string>
   <string name="location_neighborhood_level">Permitir que las aplicaciones usen datos de las redes Wi-Fi y móviles para determinar tu ubicación aproximada</string>
   <string name="location_neighborhood_level_wifi">Ubicación determinada por Wi-Fi</string>
   <string name="location_network_based">Ubicación de Google</string>
@@ -1046,6 +1060,7 @@
   <string name="master_clear_summary">Borrar todos los datos del teléfono</string>
   <string name="master_clear_title">Restablecer datos de fábrica</string>
   <string name="media_button">Teclas multimedia</string>
+   <string name="media_feedback_enable_title">Vibracion con el audio</string>
   <string name="media_format_button_text">Borrar tarjeta SD</string>
   <string name="media_format_desc">¿Borrar la tarjeta SD? Perderás todos los datos de la tarjeta.</string>
   <string name="media_format_final_button_text">Borrar todo</string>
@@ -1092,6 +1107,7 @@
   <string name="miui_screensaver_state_on">Si</string>
   <string name="miui_screensaver_title">Protector de pantalla</string>  
   <string name="miui_screensaver_usage">Las imágenes en el álbum del protector de pantalla se presentarán 5 segundos después de haberse apagado la pantalla.</string>
+  <string name="mms_breathing_light_color_title">Color de mensajes recibidos</string>
   <string name="mms_vibrate_abbreviation">Mensajes</string>
   <string name="model_number">Modelo:</string>
   <string name="move_app">Mover</string>
@@ -1116,6 +1132,7 @@
   <string name="nfc_quick_toggle_summary">Permitir el intercambio de datos cuando el teléfono toque otro dispositivo</string>
   <string name="nfc_quick_toggle_title">NFC</string>
   <string name="no">No</string>
+  <string name="noise_suppression">Supresion del ruido del ambiente</string>
   <string name="no_application">Vacío</string>
   <string name="no_applications">No hay aplicaciones.</string>
   <string name="no_device_admins">No hay ningún administrador de dispositivos disponible.</string>
@@ -1124,6 +1141,7 @@
   <string name="no_running_services">No hay nada en ejecución.</string>
   <string name="no_services">Inactivos</string>
   <string name="normal_date_format">Regional (%s)</string>
+  <string name="notification_breathing_light_color_title">Color de las notificaciones</string>
   <string name="notification_button_text_of_low_memory">Limpiar</string>
   <string name="notification_pulse_title">Luz de notificación</string>
   <string name="notification_sound_dialog_title">Elegir tono de notificación</string>
@@ -1192,6 +1210,7 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="permission_manage_summary">Inicio automático, privacidad, administración de permisos seguros</string>
   <string name="permission_manage_title">%s detalles de permisos</string>
   <string name="permissions_label">Permisos</string>
+  <string name="phone_call_noise_suppression">Supresion del ruido durante las llamadas</string>
   <string name="personal_data_section_title">Datos personales</string>
   <string name="phone_info_label">Información sobre el teléfono</string>
   <string name="phone_language">Idioma</string>
@@ -1271,6 +1290,7 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="power_idle">Teléfono inactivo</string>
   <string name="power_key">Botón \"Power\"</string>
   <string name="power_mgr">Batería</string>
+  <string name="power_mode">Ajustes de energia</string>
   <string name="power_mode_chooser_button_text">aplicar</string>
   <string name="power_phone">Llamadas de voz</string>
   <string name="power_settings_title">Rendimiento del sistema</string>
@@ -1460,6 +1480,7 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="screen_compatibility_text">Es posible que esta aplicación no se haya diseñado para tu pantalla. Aquí puedes controlar cómo se ajusta a la pantalla.</string>
   <string name="screen_key_long_press">Pulsación larga de los botones de navegación</string>
   <string name="screen_key_long_press_action">Función de lanzamiento</string>
+  <string name="screen_key_long_press_timeout">Define el tiempo de la pulsacion larga</string>
   <string name="screen_on_proximity_sensor_summary">Prevenir que el teléfono se active o funcione indebidamente estando en el bolsillo (detectado usando el sensor de proximidad)</string>
   <string name="screen_on_proximity_sensor_title">Prevenir funcionamiento erróneo</string>
   <string name="screen_timeout">Auto-apagado de pantalla</string>
@@ -1710,6 +1731,8 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="time_picker_title">Hora</string>
   <string name="time_zone_auto_stub">Seleccionar zona horaria</string>
   <string name="timezone_settings">Zona horaria</string>
+  <string name="title_font">Fuente</string>
+  <string name="title_font_current">Tipo de fuente</string>
   <string name="title_font_size">Tamaño de fuente</string>
   <string name="total_size">%s (Total)</string>
   <string name="total_size_label">Total</string>
@@ -2016,6 +2039,7 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="wifi_gateway">Puerta de enlace</string>
   <string name="wifi_gateway_hint">192.168.1.1</string>
   <string name="wifi_in_airplane_mode">Modo avión</string>
+  <string name="wifi_install_credentials">Instalar certificados</string>
   <string name="wifi_ip_address">Dirección IP</string>
   <string name="wifi_ip_address_hint">192.168.1.128</string>
   <string name="wifi_ip_settings">Ajustes de IP</string>
@@ -2029,6 +2053,7 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="wifi_menu_connect">Establecer conexión con red</string>
   <string name="wifi_menu_forget">Borrar red</string>
   <string name="wifi_menu_modify">Modificar red</string>
+  <string name="wifi_menu_wps_pin">Pin conexion WPS</string>
   <string name="wifi_menu_p2p">Wi-Fi Direct</string>
   <string name="wifi_menu_scan">Buscar</string>
   <string name="wifi_menu_wps_pbc">WPS Push Button</string>
@@ -2067,6 +2092,10 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="wifi_quick_toggle_title">Wi-Fi</string>
   <string name="wifi_remembered">Guardado</string>
   <string name="wifi_save">Guardar</string>
+  <string name="wifi_scan_always_available">Busqueda de red siempre disponible</string>
+  <string name="wifi_scan_always_available_summary">"Permitir a los servicios de localizacion de Google y otras apps busquen redes,incluso con el WI-FI apagado"</string>
+  <string name="wifi_scan_notify_text_location_on">"Para mejorar tu localizacion,Google y otras apps pueden buscar redes cercanas,incluso con el WI-FI apagado. Si no quieres vete a avanzados >Busqueda de red siempre disponible."</string>
+  <string name="wifi_scan_notify_text_location_off">"Las aplicaciones deven buscar redes cercanas,incluso con el WI-FI apagado. Si no quieres vete a avanzados >Busqueda de red siempre disponible.."</string>
   <string name="wifi_secured_first_item">Protegida con %1$s</string>
   <string name="wifi_secured_second_item">, protegida con %1$s</string>
   <string name="wifi_security">Seguridad</string>
@@ -2174,6 +2203,8 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="wifi_status">Estado</string>
   <string name="wifi_status_test">Estado Wi-Fi</string>
   <string name="wifi_stopping">Desactivando Wi-Fi…</string>
+  <string name="wifi_suspend_optimizations">Optimizacion WI-FI</string>
+  <string name="wifi_suspend_optimizations_summary">Minimizar el uso de bateria con el WI-FI encendido</string>
   <string name="wifi_tether_checkbox_text">Compartir por Wi-Fi</string>
   <string name="wifi_tether_configure_ap_text">Configurar compartir por Wi-Fi</string>
   <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
@@ -2230,6 +2261,8 @@ Nota: aplicaciones con dichos permisos podrán generar inestabilidad en el siste
   <string name="wimax_settings_summary">Configurar y gestionar módem y red 4G</string>
   <string name="window_animation_scale_title">Escala de animación ventana</string>
   <string name="wireless_networks_settings_title">Conexiones inalámbricas y redes</string>
+  <string name="wps_connect_title">Conectar mediante WPS</string>
+  <string name="wps_connect_summary">Comprueba que tu router tiene activada esta funcion</string>
   <string name="xiaomi_account">Cuenta Xiaomi</string>
   <string name="yes">Sí</string>
   <string name="zone_auto">Zona horaria automática</string>
