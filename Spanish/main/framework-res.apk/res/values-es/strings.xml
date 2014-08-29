@@ -18,7 +18,7 @@
     <string name="untitled">&lt;Sin título></string>
     <string name="VideoView_error_button">Aceptar</string>
     <string name="VideoView_error_text_unknown">No se puede reproducir el vídeo.</string>
-    <string name="VideoView_error_title">Incidencias con el vídeo</string>
+    <string name="VideoView_error_title">Problemas con el vídeo</string>
     <string name="yes">Aceptar</string>
     <string name="dialog_alert_title">Atención</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Este vídeo no se puede transmitir al dispositivo.</string>
@@ -284,6 +284,9 @@
     <string name="global_actions">Opciones del teléfono</string>
     <string name="global_action_lock">Bloqueo de pantalla</string>
     <string name="global_action_power_off">Apagar</string>
+    <string name="global_action_bug_report">Reporte de fallos</string>
+    <string name="bugreport_title">Recopilacion de reporte de fallos</string>
+    <string name="bugreport_message">Recogera informacion sobre tu dispositivo,para enviarlo como un mensaje de email.Esto llevara un poco de tiempo desde hasta que este listo para enviar;por favor ten paciencia.</string>
     <string name="global_action_toggle_silent_mode">Modo silencio</string>
     <string name="global_action_silent_mode_on_status">El sonido está desactivado. Activar</string>
     <string name="global_action_silent_mode_off_status">El sonido está activado. Desactivar</string>
