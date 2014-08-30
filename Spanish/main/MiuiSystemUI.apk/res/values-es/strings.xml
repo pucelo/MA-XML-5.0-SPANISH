@@ -56,7 +56,7 @@
   <string name="app_label">System UI</string>
   <string name="audio_effect_info">Optimizar audio</string>
   <string name="audio_effect_custom">Configurar</string>
-  <string name="audio_effect_settings">Elige tipo de auriculares/string>
+  <string name="audio_effect_settings">Elige tipo de auriculares</string>
   <string name="battery_low_percent_format">%d%% restante</string>
   <string name="battery_low_subtitle">Se está agotando la batería.</string>
   <string name="battery_low_title">Conecta el cargador</string>
