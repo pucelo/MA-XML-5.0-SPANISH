@@ -618,10 +618,11 @@
     <string name="debug_applications_category">Aplicaciones</string>
     <string name="debug_debugging_category">Depurando</string>
     <string name="debug_drawing_category">Pintando</string>
+    <string name="debug_hw_overdraw">Depurar sobredibujos de GPU</string>
     <string name="debug_input_category">Entrada</string>
     <string name="debug_intent_sender_label">Depurar la intención del remitente</string>
-    <string name="debug_layout">Mostrar bordes de diseño</string>
-    <string name="debug_layout_summary">Mostrar bordes, márgenes, etc.</string>
+    <string name="debug_layout">Mostrar límites de diseño</string>
+    <string name="debug_layout_summary">Mostrar límites de vídeo, márgenes, etc.</string>
     <string name="debug_log">Registro de depuración</string>
     <string name="debug_monitoring_category">Monitorizar</string>
     <string name="debug_ui_category">Interfaz de usuario</string>
@@ -633,6 +634,7 @@
     <string name="deny">Denegar</string>
     <string name="details_subtitle">Detalles de uso</string>
     <string name="details_title">Detalles de uso</string>
+    <string name="development_enable">Opciones de desarrollo</string>
     <string name="dev_settings_warning_message">Estas opciones están enfocadas a desarrolladores. Pueden causar que tu dispositivo y las aplicaciones instaladas fallen o funcionen de manera inesperada.</string>
     <string name="dev_settings_warning_title">¿Activar opciones de desarrollo?</string>
     <string name="development_settings_summary">Establecer opciones de desarrollo de aplicaciones</string>
@@ -677,8 +679,8 @@
     <string name="dirac_mode_piston_2">Xiaomi piston-2</string>
     <string name="dirac_mode_piston_youth">Xiaomi piston-youth</string>
     <string name="disableNetwork">disableNetwork</string>
-    <string name="disable_overlays">Desactivar capas HW</string>
-    <string name="disable_overlays_summary">Siempre usar GPU para la composición de pantalla</string>
+    <string name="disable_overlays">Inhabilitar superposiciones de HW</string>
+    <string name="disable_overlays_summary">Usar siempre GPU para combinar pantallas</string>
     <string name="disable_power_key_long_press_under_keyguard">Desactivado en bloqueo</string>
     <string name="disable_text">Inhabilitar</string>
     <string name="disabled">Inhabilitada</string>
@@ -801,8 +803,12 @@
     <string name="font_size_save">Aceptar</string>
     <string name="font_size_small">Pequeño</string>
     <string name="font_size_summary">Ajusta el tamaño de fuentes de aplicaciones como por ejemplo; Teléfono, Mensajeria, Contactos, etc, para incrementar la facilidad de lectura y usabilidad.</string>
-    <string name="force_hw_ui">Forzar aceleración GPU</string>
+    <string name="force_hw_ui">Forzar aceleración de GPU</string>
     <string name="force_hw_ui_summary">Usar aceleración de hardware 2D en aplicaciones</string>
+    <string name="force_msaa">Forzar 4x MSAA</string>
+    <string name="force_msaa_summary">Habilitar MSAA 4x en aplicaciones de OpenGL ES 2.0</string>
+    <string name="force_rtl_layout_all_locales">Forzar dirección diseño RTL</string>
+    <string name="force_rtl_layout_all_locales_summary">Forzar dirección (RTL) para todas configuraciones</string>
     <string name="force_stop">Forzar detención</string>
     <string name="force_stop_dlg_text">Si se detiene una aplicación, es posible que no funcione correctamente.</string>
     <string name="force_stop_dlg_title">¿Forzar detención?</string>
@@ -1329,6 +1335,8 @@
     <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Servidor multimedia</string>
     <string name="process_provider_in_use_description">Proveedor %1$s en uso</string>
+    <string name="process_stats_summary_title">Estadisticas de los procesos</string>
+    <string name="process_stats_summary">Estadisticas de los procesos en ejecucion</string>
     <string name="process_service_in_use_description">Servicio %1$s en uso</string>
     <string name="progress_scanning">Buscando</string>
     <string name="progress_tap_to_pair">Toca uno</string>
@@ -1590,8 +1598,11 @@
     <string name="show_fc">Mostrar FCs</string>
     <string name="show_fc_summary">Mostrar FCs generados por aplicaciones</string>
     <string name="show_hw_screen_updates">Mostrar actualizaciones de GPU</string>
-    <string name="show_hw_screen_updates_summary">El renderizado dentro de las ventanas parpadea cuando se pinta usando la GPU</string>
+    <string name="show_hw_screen_updates_summary">Actualizar vistas de las ventanas creadas con GPU</string>
+    <string name="show_hw_layers_updates">Ver actualizaciones de capas</string>
+    <string name="show_hw_layers_updates_summary">Iluminar capas de hardware en verde al actualizarse</string>
     <string name="show_magnifier_when_input">Mostrar lupa</string>
+    <string name="show_non_rect_clip">Depurar operaciones de recorte no rectangulares</string>
     <string name="show_owner_info_on_lockscreen_label">Mostrar datos del propietario en la pantalla de bloqueo</string>
     <string name="show_password">Mostrar las contraseñas</string>
     <string name="show_password_summary"  />
@@ -2049,7 +2060,6 @@
     <string name="wifi_menu_connect">Establecer conexión con red</string>
     <string name="wifi_menu_forget">Borrar red</string>
     <string name="wifi_menu_modify">Modificar red</string>
-    <string name="wifi_menu_wps_pin">Pin conexion WPS</string>
     <string name="wifi_menu_p2p">Wi-Fi Direct</string>
     <string name="wifi_menu_scan">Buscar</string>
     <string name="wifi_menu_wps_pbc">WPS Push Button</string>
